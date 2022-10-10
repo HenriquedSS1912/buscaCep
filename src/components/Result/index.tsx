@@ -11,7 +11,6 @@ import { Endereco } from '../../components/models/Endereco';
 export function Result(props: { endereco: any; }) {
 
     const endereco = props.endereco;
-    console.log('endereco ---', endereco);
 
     return (
         <>
@@ -19,7 +18,7 @@ export function Result(props: { endereco: any; }) {
                 <>
                     {!('erro' in endereco) ?
                         <View style={[styles.allEndereco]}>
-
+                            
                             <Card.Title style={styles.titleCard}>Endereço</Card.Title>
                             <Text style={styles.itemTitle}>Rua: {endereco.logradouro}</Text>
                             <Text style={styles.itemTitle}>Bairro:  {endereco.bairro}</Text>

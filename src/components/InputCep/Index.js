@@ -8,7 +8,6 @@ import Loading from '../FullPageLoader';
 
 
 export default function InputCep(props) {
-    const enderecoEncontrado = '';
 
     const [loading, setLoading] = useState(false);
     const {
@@ -30,14 +29,14 @@ export default function InputCep(props) {
             const valueResponse = response.data;
 
             if (props.quandoResultado)
-            props.quandoResultado(response.data)
+                props.quandoResultado(response.data)
 
             setTimeout(() => {
                 setLoading(false);
-            }, 2000)
+            }, 1000)
 
         }).catch((err) => {
-            console.log('ERROOOOOOOOOOOOOOOOOOOO')
+            console.log('ERROR AO BUSCAR API');
             setLoading(false);
             props.quandoResultado(null);
         });
@@ -71,11 +70,6 @@ export default function InputCep(props) {
                 />
                 <Button style={styles.button} title="Enviar" onPress={handleSubmit(onSubmit)} />
             </SafeAreaView  >
-            {enderecoEncontrado ?
-                // <Result />
-                console.log("endereço true")
-                : null
-            }
         </>
     );
 }

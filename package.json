@@ -1,5 +1,5 @@
 {
-  "name": "awesomeproject",
+  "name": "BuscaCEP",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "axios": "^1.0.0",
     "expo": "~46.0.13",
     "expo-status-bar": "~1.4.0",
+    "expo-updates": "^0.14.6",
     "react": "18.0.0",
     "react-devtools": "^4.26.0",
     "react-hook-form": "^7.36.1",
