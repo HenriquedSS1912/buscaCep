@@ -1,5 +1,5 @@
 # Busca CEP 
-## Version 0.1
+## Version 1.0.1
 
 ![Projeto BuscaCEP full screen](https://user-images.githubusercontent.com/86082129/194645580-461084f4-6977-490a-ac84-a600127889c8.gif)
 
