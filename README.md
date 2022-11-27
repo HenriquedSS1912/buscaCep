@@ -12,7 +12,7 @@ Ando estudando um pouco de React Native e com a ideia de alguns amigos, resolvi 
 
 * Realizei as requisiçoes HTTP para a API por meio do Axios. 
 
-* Desenvolvi o projeto utilizando os principais componentes do React Native, como o <View>, <Text>, StyleSheet e etc.
+* Desenvolvi o projeto utilizando os principais componentes do React Native, como o View, Text, StyleSheet e etc.
 
 
 ## 🛠️ Construído com
